@@ -33,13 +33,13 @@ right = temp;
 
 void greatestToLeast(int &highest,int &middle,int &least)
 {
-if (highest > middle)
+if (highest < middle)
 swap (highest,middle);
 
-if (highest > least)
+if (highest < least)
 swap (highest,least);
 
-if (middle > least)
+if (middle < least)
 swap (middle,least);
 }
 
